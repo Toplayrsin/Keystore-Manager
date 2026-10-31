@@ -19,6 +19,7 @@ position = Vector2(-1.5, -2.5)
 shape = SubResource("RectangleShape2D_gk6dj")
 
 [node name="Icon" type="Sprite2D" parent="player" unique_id=1802604216]
+modulate = Color(0.031615723, 0.8441709, 0.7644405, 1)
 texture = ExtResource("3_1bvp3")
 
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=695745578]

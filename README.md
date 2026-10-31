@@ -45,7 +45,7 @@ Say goodbye to remembering long and tedious `keytool` command lines in terminal!
    ```
    your_project/
    └── addons/
-       └── keystore_manager/
+	   └── keystore_manager/
    ```
 3. In the Godot editor, go to **Project > Project Settings > Plugins** and enable **Android Keystore Manager**.
 
@@ -71,4 +71,3 @@ Say goodbye to remembering long and tedious `keytool` command lines in terminal!
 
 This project is licensed under the [MIT License](addons/keystore_manager/LICENSE).
 Created with ❤️ by **Toplayrs**.
-

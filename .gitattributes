@@ -1,2 +1,7 @@
 # Normalize EOL for all files that Git considers text files.
 * text=auto eol=lf
+
+# Ignore all files by default when generating release ZIP / Asset Library archive
+/** export-ignore
+/addons !export-ignore
+/addons/** !export-ignore
