@@ -1,0 +1,27 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+
+# Keystores & Signing Keys (CRITICAL: Never commit private keys to git)
+*.keystore
+*.jks
+
+# Mono / C# (if applicable)
+.mono/
+[Bb]in/
+[Oo]bj/
+
+# OS generated files
+.DS_Store
+.directory
+Thumbs.db
+desktop.ini
+
+# Editor / IDE settings
+.vscode/
+.idea/
+*.swp
+*~
+
+# Export presets (Uncomment if your export presets contain private passwords)
+# export_presets.cfg

@@ -1,0 +1,8 @@
+# Android signing keys
+*.keystore
+*.jks
+
+# OS files
+.DS_Store
+Thumbs.db
+

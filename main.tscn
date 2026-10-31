@@ -1,0 +1,45 @@
+[gd_scene format=3 uid="uid://1y6tgf8rsjuo"]
+
+[ext_resource type="Script" uid="uid://i8byn4ijgjr2" path="res://main.gd" id="1_ig7tw"]
+[ext_resource type="Script" uid="uid://b0mw8m4gm7kv3" path="res://player.gd" id="2_h2yge"]
+[ext_resource type="Texture2D" uid="uid://cpooar8qbhx7p" path="res://icon.svg" id="3_1bvp3"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_gk6dj"]
+size = Vector2(117, 117)
+
+[node name="main" type="Node2D" unique_id=1553390570]
+script = ExtResource("1_ig7tw")
+
+[node name="player" type="CharacterBody2D" parent="." unique_id=1325118707]
+position = Vector2(611, 315)
+script = ExtResource("2_h2yge")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="player" unique_id=1708727480]
+position = Vector2(-1.5, -2.5)
+shape = SubResource("RectangleShape2D_gk6dj")
+
+[node name="Icon" type="Sprite2D" parent="player" unique_id=1802604216]
+texture = ExtResource("3_1bvp3")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=695745578]
+
+[node name="Control" type="Control" parent="CanvasLayer" unique_id=1117819680]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VirtualJoystick" type="VirtualJoystick" parent="CanvasLayer/Control" unique_id=651335177]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 7.0
+offset_top = -270.0
+offset_right = 463.0
+offset_bottom = -6.0
+grow_vertical = 0
+joystick_mode = 2
+tip_size = 58.0
