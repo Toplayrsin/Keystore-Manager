@@ -1,5 +1,7 @@
 # Android Keystore Manager for Godot 4
 
+![Android Keystore Manager](thumbnail.jpg)
+
 A clean, Unity-style Android Keystore Creator & Manager for the Godot Engine.
 
 Say goodbye to remembering long and tedious `keytool` command lines in terminal! Create release keystores directly inside the **Export Dialog** or via a dedicated popup window, with automatic export preset configuration.
