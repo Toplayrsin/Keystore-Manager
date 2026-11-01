@@ -1,6 +1,6 @@
 # Android Keystore Manager for Godot 4
 
-![Android Keystore Manager](thumbnail.jpg)
+![Android Keystore Manager](addons/keystore_manager/thumbnail.jpg)
 
 A clean, Unity-style Android Keystore Creator & Manager for the Godot Engine.
 
