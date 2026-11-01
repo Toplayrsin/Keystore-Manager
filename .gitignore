@@ -2,11 +2,21 @@
 .godot/
 /android/
 
-# Keystores & Signing Keys (CRITICAL: Never commit private keys to git)
+# Keystores & Signing Keys (CRITICAL: Never commit private keys)
 *.keystore
 *.jks
 
-# Mono / C# (if applicable)
+# Local Test Project files (kept locally, excluded from addon repository)
+project.godot
+export_presets.cfg
+main.tscn
+main.gd*
+player.gd*
+icon.svg*
+thumbnail*
+.editorconfig
+
+# Mono / C#
 .mono/
 [Bb]in/
 [Oo]bj/
@@ -22,6 +32,3 @@ desktop.ini
 .idea/
 *.swp
 *~
-
-# Export presets (Uncomment if your export presets contain private passwords)
-# export_presets.cfg
